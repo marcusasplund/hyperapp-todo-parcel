@@ -1,0 +1,1 @@
+{"dependencies":[{"name":"../utils/local-storage","loc":{"line":1,"column":34}}],"generated":{"js":"\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.state=void 0;var e=require(\"../utils/local-storage\");const t=exports.state=(0,e.getStateFromStorage)()||{input:\"\",placeholder:\"Add new todo\",todos:[]};"},"hash":"6909fad2c233e7ec4260c25897da9f34"}

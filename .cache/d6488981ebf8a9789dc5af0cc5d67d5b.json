@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0});const e=exports.generateUUID=(()=>(\"\"+1e7+-1e3+-4e3+-8e3+-1e11).replace(/1|0/g,function(){return(0|16*Math.random()).toString(16)}));"},"hash":"9be1b142049ec6ba623b0afe1bfc5071"}

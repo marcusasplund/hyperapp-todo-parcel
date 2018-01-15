@@ -1,11 +1,5 @@
 {
-  "presets": ["env"],
   "plugins": [
-    [
-      {
-        "useBuiltIns": true
-      }
-    ],
     "transform-h-jsx"
   ]
 }

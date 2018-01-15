@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0});const e=exports.removeTodo=((e,t)=>e.todos.filter(e=>t.target.dataset.uuid!==e.id));"},"hash":"77179b3499771a0788ed3e09406b665f"}

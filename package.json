@@ -26,7 +26,11 @@
     "standard": "*"
   },
   "standard": {
-    "parser": "babel-eslint"
+    "parser": "babel-eslint",
+    "ignore": [
+      "dist/",
+      "build/"
+    ]
   },
   "dependencies": {
     "hyperapp": "^1.0.1"

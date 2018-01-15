@@ -1,0 +1,1 @@
+{"dependencies":[],"generated":{"js":"\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0});const t=exports.editTodo=((t,e)=>t.todos.map(t=>e.target.dataset.uuid===t.id?Object.assign({},t,{value:e.target.textContent}):t));"},"hash":"db7b39bdc5dc1dd8538f7676ec964db9"}
