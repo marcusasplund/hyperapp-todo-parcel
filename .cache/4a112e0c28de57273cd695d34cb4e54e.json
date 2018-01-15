@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0});const t=()=>JSON.parse(window.localStorage.getItem(\"todoapp\")),e=t=>window.localStorage.setItem(\"todoapp\",JSON.stringify(t));exports.getStateFromStorage=t,exports.storeStateInStorage=e;"},"hash":"77179b15829dc9dfd7ee22ac425e5ac6"}

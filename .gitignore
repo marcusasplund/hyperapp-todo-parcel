@@ -35,4 +35,3 @@ node_modules
 # Compiled stuff
 dist
 build
-.cache

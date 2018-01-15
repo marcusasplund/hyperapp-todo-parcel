@@ -1,1 +1,0 @@
-{"dependencies":[{"name":"../utils/generate-uuid","loc":{"line":1,"column":27}}],"generated":{"js":"\"use strict\";Object.defineProperty(exports,\"__esModule\",{value:!0}),exports.addTodo=void 0;var e=require(\"../utils/generate-uuid\");const o=exports.addTodo=(o=>o.todos.concat({done:!1,id:(0,e.generateUUID)(),value:o.input}));"},"hash":"b557d7b30da4f498b8b5e2a2aebf34c2"}

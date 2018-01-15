@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"\"use strict\";\n\nObject.defineProperty(exports, \"__esModule\", {\n  value: true\n});\nvar removeTodo = exports.removeTodo = function removeTodo(state, e) {\n  return state.todos.filter(function (t) {\n    return e.target.dataset.uuid !== t.id;\n  });\n};"},"hash":"f4479710bdf550ab0050f6de09cdfba3"}
