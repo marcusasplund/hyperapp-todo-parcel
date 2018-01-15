@@ -16,7 +16,7 @@ Add some todos, click buttons to delete or toggle state, tap or click text in to
 
 Offline support with service worker
 
-TODO: [a bug in parcel](https://github.com/parcel-bundler/parcel/issues/235) rewrites the manifest.json to a js file so the pwa requirements fails  
+TODO: [a bug in parcel](https://github.com/parcel-bundler/parcel/issues/235) rewrites the manifest.json to a js file so the pwa requirements fails. Also, the browserconfig.xml seems not to be picked up correctly
 
 ## installation
 
