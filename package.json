@@ -1,0 +1,34 @@
+{
+  "homepage": "https://github.com/marcusasplund/hyperapp-todo-parcel#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "hyperapp-todo-parcel",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/marcusasplund/hyperapp-todo-parcel.git"
+  },
+  "scripts": {
+    "start": "standard && parcel src/index.html -p 3000 --open",
+    "build": "standard && parcel build src/index.html -d build --public-url ./ && workbox generate:sw"
+  },
+  "version": "0.0.1",
+  "author": "Marcus Asplund <marcus@greatname.se> (@marcusasplund)",
+  "bugs": {
+    "url": "https://github.com/marcusasplund/hyperapp-todo-parcel/issues"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.1.2",
+    "babel-plugin-transform-h-jsx": "^1.0.0",
+    "workbox-build": "^2.1.2",
+    "workbox-cli": "^2.1.2",
+    "node-sass": "^4.7.2",
+    "parcel-bundler": "^1.4.1",
+    "standard": "*"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "hyperapp": "^1.0.1"
+  }
+}
