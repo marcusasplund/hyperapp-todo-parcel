@@ -7,7 +7,6 @@
 [![dependencies](https://david-dm.org/marcusasplund/hyperapp-todo-parcel.svg)](https://david-dm.org/marcusasplund/hyperapp-todo-parcel)
 [![Stack Share](http://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](http://stackshare.io/marcusasplund/hyperapp-todo-parcel)
 
-
 [![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
 # [Hyperapp](https://github.com/hyperapp/hyperapp) crud todo with [Parcel bundler](https://github.com/parcel-bundler/parcel)
