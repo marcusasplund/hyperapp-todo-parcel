@@ -10,11 +10,13 @@
 
 # [Hyperapp](https://github.com/hyperapp/hyperapp) crud todo with [Parcel bundler](https://github.com/parcel-bundler/parcel)
 
-## [demo](https://pap.as/hyperapp/todo/)
+## [Demo](https://pap.as/hyperapp/todoparcel/)
 
 Add some todos, click buttons to delete or toggle state, tap or click text in todo to edit.
 
 Offline support with service worker
+
+TODO: [a bug in parcel](https://github.com/parcel-bundler/parcel/issues/235) rewrites the manifest.json to a js file so the pwa requirements fails  
 
 ## installation
 
