@@ -1,7 +1,6 @@
 # hyperapp-todo-parcel
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/marcusasplund/hyperapp-todo-parcel.svg)](https://greenkeeper.io/)
-
 [![GitHub issues](https://img.shields.io/github/issues/marcusasplund/hyperapp-todo-parcel.svg)](https://github.com/marcusasplund/hyperapp-todo-parcel/issues)
 [![Build status](https://travis-ci.org/marcusasplund/hyperapp-todo-parcel.svg?branch=master)](https://travis-ci.org/marcusasplund/hyperapp-todo-parcel)
 [![dependencies](https://david-dm.org/marcusasplund/hyperapp-todo-parcel.svg)](https://david-dm.org/marcusasplund/hyperapp-todo-parcel)
