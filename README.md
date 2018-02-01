@@ -30,7 +30,7 @@ TODO: [a bug in parcel](https://github.com/parcel-bundler/parcel/issues/235) rew
     $ yarn start
 ````
 
-Open up application at http://localhost:4000/ in browser
+Open up application at http://localhost:3000/ in browser
 
 ## build a release
 
