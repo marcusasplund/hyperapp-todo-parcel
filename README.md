@@ -31,7 +31,7 @@ To build a proper PWA you now have to manually copy the <meta> tags in the head 
     $ yarn start
 ````
 
-Open up application at http://localhost:4000/ in browser
+Open up application at http://localhost:3000/ in browser
 
 ## build a release
 
