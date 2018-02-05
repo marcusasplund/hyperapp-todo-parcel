@@ -1,6 +1,6 @@
 module.exports = {
   'globDirectory': 'dist/',
-  'globPatterns': [],
+  'globPatterns': ['./*.{html,js,css}'],
   'swDest': 'build/sw.js',
   'globIgnores': [
     '../workbox-cli-config.js'
