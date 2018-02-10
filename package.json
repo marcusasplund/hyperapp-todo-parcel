@@ -17,13 +17,13 @@
     "url": "https://github.com/marcusasplund/hyperapp-todo-parcel/issues"
   },
   "devDependencies": {
-    "babel-eslint": "^8.1.2",
+    "babel-eslint": "^8.2.1",
     "babel-plugin-transform-h-jsx": "^1.0.0",
     "babel-preset-env": "^1.6.1",
     "workbox-build": "^2.1.2",
     "workbox-cli": "^2.1.2",
     "node-sass": "^4.7.2",
-    "parcel-bundler": "^1.4.1",
+    "parcel-bundler": "^1.5.1",
     "standard": "*"
   },
   "standard": {
@@ -34,6 +34,6 @@
     ]
   },
   "dependencies": {
-    "hyperapp": "^1.0.1"
+    "hyperapp": "^1.1.2"
   }
 }
