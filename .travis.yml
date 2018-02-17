@@ -9,4 +9,5 @@ install:
   - yarn
 
 script:
+  - yarn start
   - yarn build
