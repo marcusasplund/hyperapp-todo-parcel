@@ -4,6 +4,7 @@ import {h} from 'hyperapp'
 export const TodoInput = ({state, actions}) => (
   <div class='row'>
     <input
+      oncreate={element => element.focus()}
       type='text'
       aria-label={state.placeholder}
       onkeyup={({target: {value}, keyCode}) => keyCode === 13 && value !== '' ? actions.add() : null}
