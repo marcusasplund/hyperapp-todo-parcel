@@ -7,9 +7,9 @@
 
 [![Standard - JavaScript Style Guide](https://cdn.rawgit.com/feross/standard/master/badge.svg)](https://github.com/feross/standard)
 
-# [Hyperapp](https://github.com/hyperapp/hyperapp) crud todo with [Parcel bundler](https://github.com/parcel-bundler/parcel)
+[Hyperapp](https://github.com/hyperapp/hyperapp) crud todo with [Parcel bundler](https://github.com/parcel-bundler/parcel)
 
-## [Demo](https://pap.as/hyperapp/todoparcel/)
+## [Demo](https://marcusasplund.github.io/hyperapp-todo-parcel/)
 
 Add some todos, click buttons to delete or toggle state, tap or click text in todo to edit.
 
