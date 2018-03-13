@@ -21,7 +21,7 @@
     "babel-plugin-transform-h-jsx": "^1.0.0",
     "babel-preset-env": "^1.6.1",
     "workbox-build": "^2.1.2",
-    "workbox-cli": "^2.1.2",
+    "workbox-cli": "^3.0.0",
     "node-sass": "^4.7.2",
     "parcel-bundler": "^1.5.1",
     "standard": "*"
