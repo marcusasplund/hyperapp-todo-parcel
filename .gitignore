@@ -34,5 +34,5 @@ node_modules
 
 # Compiled stuff
 dist
-build
+release
 .cache
