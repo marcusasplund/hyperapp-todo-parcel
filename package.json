@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "standard && parcel src/index.html -p 3000 --open",
-    "build": "standard && parcel build src/index.html -d build --public-url ./ && workbox generateSW"
+    "build": "standard && parcel build src/index.html -d release --public-url ./ && workbox generateSW"
   },
   "version": "0.0.1",
   "author": "Marcus Asplund <marcus@greatname.se> (@marcusasplund)",
@@ -30,7 +30,7 @@
     "parser": "babel-eslint",
     "ignore": [
       "dist/",
-      "build/"
+      "release/"
     ]
   },
   "dependencies": {
