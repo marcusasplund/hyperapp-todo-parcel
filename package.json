@@ -17,7 +17,7 @@
     "url": "https://github.com/marcusasplund/hyperapp-todo-parcel/issues"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.2",
+    "babel-eslint": "^9.0.0",
     "workbox-build": "^3.0.1",
     "workbox-cli": "^3.0.1",
     "node-sass": "^4.8.3",
