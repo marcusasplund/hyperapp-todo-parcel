@@ -1,7 +1,7 @@
 module.exports = {
-  'globDirectory': 'release/',
-  'swDest': 'release/sw.js',
-  'navigateFallback': 'release/index.html',
+  'globDirectory': 'build/',
+  'swDest': 'build/sw.js',
+  'navigateFallback': 'build/index.html',
   'clientsClaim': true,
   'skipWaiting': true
 }
