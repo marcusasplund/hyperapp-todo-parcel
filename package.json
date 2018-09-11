@@ -28,7 +28,8 @@
     "parser": "babel-eslint",
     "ignore": [
       "dist/",
-      "release/"
+      "release/",
+      "build/"
     ]
   },
   "dependencies": {
