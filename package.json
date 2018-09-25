@@ -19,7 +19,7 @@
   "devDependencies": {
     "babel-eslint": "^9.0.0",
     "node-sass": "^4.9.3",
-    "parcel-bundler": "^1.9.7",
+    "parcel-bundler": "1.9.7",
     "standard": "*",
     "workbox-build": "^3.4.1",
     "workbox-cli": "^3.4.1"
