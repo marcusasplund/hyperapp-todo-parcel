@@ -39,6 +39,6 @@
     ]
   },
   "dependencies": {
-    "hyperapp": "^1.2.8"
+    "hyperapp": "^1.2.9"
   }
 }
