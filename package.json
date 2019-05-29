@@ -24,8 +24,8 @@
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
     "babel-eslint": "^10.0.1",
-    "parcel-bundler": "^1.11.0",
-    "parcel-plugin-sw-cache": "^0.2.6",
+    "parcel-bundler": "^1.12.3",
+    "parcel-plugin-sw-cache": "^0.2.7",
     "standard": "*",
     "node-sass": "^4.12.0"
   },
