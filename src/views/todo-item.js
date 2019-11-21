@@ -1,35 +1,44 @@
 /* eslint-disable no-unused-vars */
 import { h } from 'hyperapp'
+import { storeStateInStorage } from '../utils/local-storage'
 import { RemoveButton } from './remove-button'
 import { ToggleButton } from './toggle-button'
 
-export const TodoItem = ({ actions, todo }) => (
+const EditTodo = (state, e) => {
+  const items = state.items.map(t => e.target.dataset.uuid === t.id ? Object.assign({}, t, {
+    value: e.target.textContent
+  }) : t)
+  const newState = { ...state, ...{ items: items } }
+  storeStateInStorage(newState)
+  return newState
+}
+
+export const TodoItem = ({ item }) => (
   <div class='item row'>
     <div class='left'>
-      <RemoveButton actions={actions} id={todo.id} />
-      <ToggleButton actions={actions} id={todo.id} />
+      <RemoveButton id={item.id} />
+      <ToggleButton id={item.id} />
     </div>
     <div
-      class={todo.done ? 'done right' : 'right'}
+      class={item.done ? 'done right' : 'right'}
       // Prevent extra <div> elements inserted in contenteditable
-      onclick={e => {
-        if (!todo.done) {
-          e.target.contentEditable = true
-          e.target.focus()
+      onClick={(state, event) => {
+        if (!item.done) {
+          event.target.contentEditable = true
+          event.target.focus()
         }
-      }
-      }
-      onkeydown={e => {
-        if (e.keyCode === 13) {
-          e.target.contentEditable = false
-          actions.editEnter(e)
+        return state
+      }}
+      onKeyDown={(state, event) => {
+        if (event.keyCode === 13) {
+          event.target.contentEditable = false
         }
-      }
-      }
-      data-uuid={todo.id}
-      oninput={e => (todo.value = e.target.textContent || '')}
-      onblur={e => actions.edit(e)}>
-      {todo.value}
+        return state
+      }}
+      data-uuid={item.id}
+      onInput={EditTodo}
+    >
+      {item.value}
     </div>
   </div>
 )

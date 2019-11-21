@@ -9,7 +9,7 @@ export const HeaderView = () => (
         <small>tap text to edit todo
         </small>
       </em>
-      <a href='https://github.com/marcusasplund/hyperapp-todo-parcel/'>{' '}
+      <a href='https://github.com/marcusasplund/hyperapp-todo-simple/'>{' '}
         <small>source
         </small>
       </a>
